@@ -1,0 +1,53 @@
+ <html>
+ <HEAD>
+<b><center></TITLE><H1 STYLE="COLOR:Blakc;"> Catálogo de Floristería </center></H1></TITLE></b>
+ <style>
+body {
+  background-image: url("Fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</HEAD>
+  <Center><td><img src="Logo.PNG" width="200" height="200" /> </td></Center>
+<br>
+<br>
+<ol>
+<Center>“Así como estas flores, mi amor por ti no se marchita jamás.”</Center>
+<br>
+<Center>“Flores eternas para un amor que no conoce final.”</Center>
+<br>
+<Center>“Eres la flor que ilumina mis días, hoy y siempre.”</Center>
+<br>
+<Center>“La belleza de estas flores solo se compara con la tuya.”</Center>
+<br>
+<Center>“Que estas flores te recuerden que mi cariño no tiene fecha de caducidad.”</Center>
+<br>
+
+<H1><Center>Si te gusta mi pagina web 
+<br>
+Deja tu me gusta aqui👍🏾 </H1></Center>
+  </style>
+</head>
+<body>
+<Center>
+  <h2>Botón de Like</h2>
+  
+  <button class="like-button" id="btnLike">👍 Me gusta</button>
+  <span class="contador" id="contador">0</span>
+
+  <script>
+    let contador = 0;
+    const boton = document.getElementById('btnLike');
+    const mostrarContador = document.getElementById('contador');
+
+    boton.addEventListener('click', () => {
+      contador++;
+      mostrarContador.textContent = contador;
+      boton.classList.toggle('liked');
+    });
+  </script>
+</Center>
+</body>
+</html>
+<a href="Pag2.html"> Ir a la pagina de pag2</a>

@@ -1,0 +1,52 @@
+<html>
+ <HEAD>
+<b><center></TITLE><H1 STYLE="COLOR:Blakc;"> Ramo Personalizado </center></H1></TITLE></b>
+ <style>
+body {
+  background-image: url("Fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</HEAD>
+  <Center><td><img src="Ramo1.JPEG" width="100" height="200" /> </td></Center>
+<br>
+<br>
+
+<Center>Ramo de 25 Rosas A tan solo 1,100, Incluye Stikers pegado en cinta, lleva perlitas a cada flor
+ <br>
+y cada petalo de la flor esta hecho con amor para cada persona para cada mamá para cada familiar querido.</Center>
+<br>
+<ol>
+Mamá, eres la flor más hermosa del jardín de mi vida. Tu amor me ha dado fuerza en los días 
+difíciles y alegría en los momentos más simples. Gracias por enseñarme a florecer con esperanza, 
+por cuidarme con ternura y por ser mi guía en cada paso que doy. Así como estas flores eternas, 
+tu amor vive en mí para siempre, sin marchitarse, sin perder su brillo. Te amo más de lo que las
+ palabras pueden decir.”
+
+<br>
+<Center><h2>Deja tu me gusta aqui👍🏾</h2></Center>
+  </style>
+</head>
+<body>
+<Center>
+  <h2>Botón de Like</h2>
+  
+  <button class="like-button" id="btnLike">👍 Me gusta</button>
+  <span class="contador" id="contador">0</span>
+
+  <script>
+    let contador = 0;
+    const boton = document.getElementById('btnLike');
+    const mostrarContador = document.getElementById('contador');
+
+    boton.addEventListener('click', () => {
+      contador++;
+      mostrarContador.textContent = contador;
+      boton.classList.toggle('liked');
+    });
+  </script>
+</Center>
+</body>
+</html>
+<a href="Pag3.html"> Ir a la pagina de pag3</a>
